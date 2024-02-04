@@ -25,7 +25,7 @@ a{
     color: var(--textColor);
     width: 100%;
 }
-
+/* having some error in this wrapper */
 .wrapper{
     max-width: 1536px;
     margin-left: auto;
