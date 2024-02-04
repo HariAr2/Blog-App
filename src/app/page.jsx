@@ -1,5 +1,8 @@
 import styles from "./homepage.module.css";
+import Link from "next/link";
 
 export default function Home() {
-  return <div>Hello</div>;
+  return <div>
+    <Link href="/">Hello</Link>
+  </div>;
 }
