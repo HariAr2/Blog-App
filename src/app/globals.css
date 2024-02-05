@@ -1,37 +1,42 @@
-:root{
-    --bg:white;
-    --textColor:balck;
-    --softBg:#f0f0f0;
-    --softTextColor:#626262;
+:root {
+    --bg: white;
+    --textColor: balck;
+    --softBg: #f0f0f0;
+    --softTextColor: #626262;
 }
-*{
+
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-body{
+body {
     max-width: 100vw;
-    overflow-x:hidden ;
+    overflow-x: hidden;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
-.container{
+
+.container {
     min-height: 100vh;
     background-color: var(--bg);
     color: var(--textColor);
     width: 100%;
 }
+
 /* having some error in this wrapper */
-.wrapper{
-    max-width: 1536px;
+.wrapper {
+    max-width: max-content;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     background-color: rebeccapurple;
     padding-left: 80px;
-    padding-right:80px;
+    padding-right: 80px;
 }
+
 /* need to make the wrapper in the center */
