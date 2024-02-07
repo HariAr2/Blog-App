@@ -29,14 +29,9 @@ a {
 }
 
 /* having some error in this wrapper */
-<<<<<<< HEAD
-.wrapper{
-    max-width: 1080px; /* changes */
-=======
+
 .wrapper {
-    max-width: max-content;
-    width: 90%;
->>>>>>> 118db767ffc2cc43105c49ae0847f55149931432
+    max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
     background-color: rebeccapurple;
