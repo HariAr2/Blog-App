@@ -29,9 +29,9 @@ a {
 }
 
 /* having some error in this wrapper */
+
 .wrapper {
-    max-width: max-content;
-    width: 90%;
+    max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
     background-color: rebeccapurple;
