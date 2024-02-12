@@ -1,9 +1,12 @@
-import React from 'react'
+
 import styles from "./navbar.module.css"
 import ThemeToggle from '../themeToggle/ThemeToggle';
 import AuthLinks from '../authLinks/AuthLinks';
 
 function Navbar(){
+
+    
+
     return(
         <div className={styles.container}>
             <div className={styles.social}>
@@ -14,9 +17,9 @@ function Navbar(){
             <div className={styles.logo}>ENTITIES</div>
             <div className={styles.links}>
                 <ThemeToggle></ThemeToggle>
-                <a href="/">Homepage</a>
-                <a href="/">Contact</a>
-                <a href="/">About</a>
+                <a href="/" className={styles.link}>Homepage</a>
+                <a href="/" className={styles.link}>Contact</a>
+                <a href="/" className={styles.link}>About</a>
                 <AuthLinks></AuthLinks>
             </div>
         </div>
