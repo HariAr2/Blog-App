@@ -1,11 +1,8 @@
-import React from 'react'
-import styles from "./menu.module.css"
+import React from "react";
+import styles from "./menu.module.css";
 
-
-function Menu(){
-    return(
-        <div className={styles.container}>Menu</div>
-    );
+function Menu() {
+  return <div className={styles.container}>Menu</div>;
 }
 
-export default Menu
+export default Menu;
