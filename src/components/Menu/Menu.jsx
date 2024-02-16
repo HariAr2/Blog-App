@@ -14,21 +14,30 @@ function Menu() {
             <Image src="/p1.jpeg" alt="" fill className={styles.image} />
           </div>
           <div className={styles.textContainer}>
-            <span className={`${styles.category} ${styles.travel}`}>Travel</span>
-            <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <span className={`${styles.category} ${styles.travel}`}>
+              Travel
+            </span>
+            <h3 className={styles.postTitle}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h3>
             <div className={styles.detail}>
               <span className={styles.username}>John doe</span>
               <span className={styles.date}>-5 days ago </span>
             </div>
           </div>
         </Link>
+
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
             <Image src="/p1.jpeg" alt="" fill className={styles.image} />
           </div>
           <div className={styles.textContainer}>
-            <span className={`${styles.category} ${styles.culture}`}>Culture</span>
-            <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <span className={`${styles.category} ${styles.culture}`}>
+              Culture
+            </span>
+            <h3 className={styles.postTitle}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h3>
             <div className={styles.detail}>
               <span className={styles.username}>John doe</span>
               <span className={styles.date}>-5 days ago </span>
@@ -42,7 +51,9 @@ function Menu() {
           </div>
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.food}`}>Food</span>
-            <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <h3 className={styles.postTitle}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h3>
             <div className={styles.detail}>
               <span className={styles.username}>John doe</span>
               <span className={styles.date}>-5 days ago </span>
@@ -55,15 +66,18 @@ function Menu() {
             <Image src="/p1.jpeg" alt="" fill className={styles.image} />
           </div>
           <div className={styles.textContainer}>
-            <span className={`${styles.category} ${styles.fashion}`}>Fashion</span>
-            <h3 className={styles.postTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <span className={`${styles.category} ${styles.fashion}`}>
+              Fashion
+            </span>
+            <h3 className={styles.postTitle}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h3>
             <div className={styles.detail}>
               <span className={styles.username}>John doe</span>
               <span className={styles.date}>-5 days ago </span>
             </div>
           </div>
         </Link>
-
       </div>
     </div>
   );
