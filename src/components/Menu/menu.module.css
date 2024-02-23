@@ -13,12 +13,18 @@
 }
 
 .items {
+  margin-top: 35px;
+  margin-bottom: 65px;
+  display: flex ;
+  flex-direction: column;
+  gap: 35px;
+
 }
 
 .item {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  /*flex-direction: column;*/
   gap: 20px;
 }
 
@@ -26,6 +32,7 @@
   flex: 1;
   position: relative;
   aspect-ratio: 1/1;
+  width: 10%;
 }
 
 .image {
@@ -79,4 +86,4 @@
   color: gray;
 }
 
-/* CSS issue refer 1:22:56 for reference */
+/*refer 1:26:20 for reference */
