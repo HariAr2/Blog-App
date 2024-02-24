@@ -13,7 +13,7 @@ function CardList() {
         <Card />
         <Card />
         <Card />
-      </div>
+      </div> 
       <Pagination />
     </div>
   );
