@@ -5,7 +5,7 @@ import Footer from '@/components/footer/Footer'
 import { ThemeContextProvider } from '@/context/ThemeContext'
 import ThemeProvider from '@/providers/ThemeProvider'
 
-//total time spent: 13 hours
+//total time spent: 15 hours
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
