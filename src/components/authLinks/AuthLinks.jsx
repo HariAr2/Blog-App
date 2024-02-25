@@ -11,8 +11,8 @@ function AuthLinks() {
 
   return (
     <>
-      {status === "noauthenticated" ? (
-        <a href="/logout">Login</a>
+      {status === "authenticated" ? (
+        <a href="/login">Login</a>
       ) : (
         <>
           <a href="/write">Write</a>
