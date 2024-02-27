@@ -1,13 +1,11 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import styles from "./writePage.module.css";
 import Image from "next/image";
 
-
-
 const WritePage = () => {
   const [open, setOpen] = useState(false);
-  const[value,setValue] = useState("");
+  const [value, setValue] = useState("");
   return (
     <div className={styles.container}>
       <input type="text" placeholder="Title" />
@@ -34,3 +32,6 @@ const WritePage = () => {
 };
 
 export default WritePage;
+// completed till 2:12:19
+// error in react-quill
+// try to debug this error
