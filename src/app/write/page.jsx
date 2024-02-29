@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import styles from "./writePage.module.css";
 import Image from "next/image";
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.bubble.css";
 
 const WritePage = () => {
   const [open, setOpen] = useState(false);
@@ -26,6 +28,12 @@ const WritePage = () => {
             </button>
           </div>
         )}
+        <ReactQuill
+          theme="bubble"
+          value={value}
+          onChange={setValue}
+          placeholder="Enter your story.."
+        ></ReactQuill>
       </div>
     </div>
   );
