@@ -10,9 +10,9 @@ const WritePage = () => {
   const [value, setValue] = useState("");
   return (
     <div className={styles.container}>
-      <input type="text" placeholder="Title" />
+      <input type="text" placeholder="Title" className={styles.input} />
       <div className={styles.editor}>
-        <button className={styles.button}>
+        <button className={styles.button} onClick={() => setOpen(!open)}>
           <Image src="/plus.png" alt="" width={16} height={16}></Image>
         </button>
         {open && (
@@ -21,25 +21,27 @@ const WritePage = () => {
               <Image src="/image.png" alt="" width={16} height={16}></Image>
             </button>
             <button className={styles.addButton}>
-              <Image src="/food.png" alt="" width={16} height={16}></Image>
+              <Image src="/external.png" alt="" width={16} height={16} />
             </button>
             <button className={styles.addButton}>
-              <Image src="/film.png" alt="" width={16} height={16}></Image>
+              <Image src="/video.png" alt="" width={16} height={16} />
             </button>
           </div>
         )}
         <ReactQuill
+          className={styles.textArea}
           theme="bubble"
           value={value}
           onChange={setValue}
-          placeholder="Enter your story.."
-        ></ReactQuill>
+          placeholder="Tell your story.."
+        />
       </div>
+      <button className={styles.publish}>Publish</button>
     </div>
   );
 };
 
 export default WritePage;
-// completed till 2:12:19
-// error in react-quill
+// error in Line 24 and 26 (Image not found)....
+//timestamp: 2:34:48
 // try to debug this error

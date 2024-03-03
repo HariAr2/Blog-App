@@ -30,6 +30,7 @@ a {
   --softBg: #1f273a;
   --softTextColor: #a6a6a6;
 }
+
 .light {
   --bg: white;
   --textColor: black;
@@ -83,10 +84,11 @@ a {
     max-width: 475px;
   }
 }
-ql-container{
+
+.ql-container {
   font-size: 28px !important;
 }
 
-.quill>.ql-container>.ql-editor.ql-blank::before{
+.quill>.ql-container>.ql-editor.ql-blank::before {
   color: #b3b3b1;
 }
