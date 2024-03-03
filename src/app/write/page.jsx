@@ -43,4 +43,5 @@ const WritePage = () => {
 
 export default WritePage;
 // error in Line 24 and 26 (Image not found)....
+//timestamp: 2:34:48
 // try to debug this error
