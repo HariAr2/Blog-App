@@ -4,7 +4,7 @@ import styles from "./writePage.module.css";
 import Image from "next/image";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.bubble.css";
-
+// need change @line 27 marked 
 const WritePage = () => {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
