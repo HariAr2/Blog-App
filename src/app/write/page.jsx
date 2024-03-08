@@ -24,7 +24,7 @@ const WritePage = () => {
               <Image src="/film.png" alt="" width={16} height={16} />
             </button>
             <button className={styles.addButton}>
-              <Image src="/film.png" alt="" width={16} height={16} />
+              <Image src="/external.png" alt="" width={16} height={16} />
             </button>
           </div>
         )}
