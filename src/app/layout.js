@@ -35,3 +35,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+// comments
+// need documentation for better understanding
