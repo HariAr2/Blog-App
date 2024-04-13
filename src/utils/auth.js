@@ -17,3 +17,5 @@ export const authOptions = {
     }),
   ],
 };
+
+export const getAuthSession = () => getServerSession(authOptions);
